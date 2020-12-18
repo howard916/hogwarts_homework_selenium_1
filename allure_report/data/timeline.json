@@ -1,0 +1,52 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "howard-mac.local",
+    "children" : [ {
+      "name" : "22075-MainThread",
+      "children" : [ {
+        "name" : "联系人添加",
+        "uid" : "d45d0f6e73b11092",
+        "parentUid" : "e93ff28e6ca5c5eb1c85c529cd2cc8c7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608281075766,
+          "stop" : 1608281076886,
+          "duration" : 1120
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['王二', '小王', 'wang2', '13300000001', 'wang2@example.com', '测试开发', '吴昊天']" ]
+      }, {
+        "name" : "联系人添加",
+        "uid" : "c764f8eba283aae7",
+        "parentUid" : "e93ff28e6ca5c5eb1c85c529cd2cc8c7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608281072461,
+          "stop" : 1608281074707,
+          "duration" : 2246
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['张三', '小张', 'zhangsan', '13800000001', 'zhangsan@example.com', '手工测试人员', '吴昊天']" ]
+      }, {
+        "name" : "联系人添加",
+        "uid" : "3218c949d041126a",
+        "parentUid" : "e93ff28e6ca5c5eb1c85c529cd2cc8c7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608281074711,
+          "stop" : 1608281075763,
+          "duration" : 1052
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['李四', '老李', 'lisi', '13900000001', 'lisi@example.com', '测试组长', '吴昊天']" ]
+      } ],
+      "uid" : "e93ff28e6ca5c5eb1c85c529cd2cc8c7"
+    } ],
+    "uid" : "3031a265faee6d4628a0b97f8d601c4c"
+  } ]
+}

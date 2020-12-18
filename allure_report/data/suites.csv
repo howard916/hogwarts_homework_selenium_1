@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Dec 18 16:44:32 CST 2020","Fri Dec 18 16:44:34 CST 2020","2246","testcase","test_wechat_contacts","TestContacts","","","联系人添加",""
+"passed","Fri Dec 18 16:44:34 CST 2020","Fri Dec 18 16:44:35 CST 2020","1052","testcase","test_wechat_contacts","TestContacts","","","联系人添加",""
+"passed","Fri Dec 18 16:44:35 CST 2020","Fri Dec 18 16:44:36 CST 2020","1120","testcase","test_wechat_contacts","TestContacts","","","联系人添加",""

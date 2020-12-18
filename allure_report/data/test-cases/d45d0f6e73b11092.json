@@ -1,0 +1,135 @@
+{
+  "uid" : "d45d0f6e73b11092",
+  "name" : "联系人添加",
+  "fullName" : "testcase.test_wechat_contacts.TestContacts#test_add_contacts",
+  "historyId" : "3ff9261a9a6148bec0d201db6fe11ca6",
+  "time" : {
+    "start" : 1608281075766,
+    "stop" : 1608281076886,
+    "duration" : 1120
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "web_start",
+    "time" : {
+      "start" : 1608281066594,
+      "stop" : 1608281072459,
+      "duration" : 5865
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "测试创建账号",
+      "time" : {
+        "start" : 1608281075767,
+        "stop" : 1608281076516,
+        "duration" : 749
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "检查列表人员信息",
+      "time" : {
+        "start" : 1608281076516,
+        "stop" : 1608281076885,
+        "duration" : 369
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "web_start::0",
+    "time" : {
+      "start" : 1608281076887,
+      "stop" : 1608281082094,
+      "duration" : 5207
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "联系人功能测试"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('web_start')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_wechat_contacts"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestContacts"
+  }, {
+    "name" : "host",
+    "value" : "howard-mac.local"
+  }, {
+    "name" : "thread",
+    "value" : "22075-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_wechat_contacts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "user_info",
+    "value" : "['王二', '小王', 'wang2', '13300000001', 'wang2@example.com', '测试开发', '吴昊天']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('web_start')" ]
+  },
+  "source" : "d45d0f6e73b11092.json",
+  "parameterValues" : [ "['王二', '小王', 'wang2', '13300000001', 'wang2@example.com', '测试开发', '吴昊天']" ]
+}

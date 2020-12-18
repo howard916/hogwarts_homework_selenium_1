@@ -1,0 +1,31 @@
+[ {
+  "uid" : "d45d0f6e73b11092",
+  "name" : "联系人添加",
+  "time" : {
+    "start" : 1608281075766,
+    "stop" : 1608281076886,
+    "duration" : 1120
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c764f8eba283aae7",
+  "name" : "联系人添加",
+  "time" : {
+    "start" : 1608281072461,
+    "stop" : 1608281074707,
+    "duration" : 2246
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3218c949d041126a",
+  "name" : "联系人添加",
+  "time" : {
+    "start" : 1608281074711,
+    "stop" : 1608281075763,
+    "duration" : 1052
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
