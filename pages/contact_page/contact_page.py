@@ -49,12 +49,14 @@ class ContactsPage(BasePage):
 
     def get_row_info(self, name):
         ele = self.eles['name_list']
-        name = self.find_ele([ele[0], ele[1] % (name, '.')]).get_attribute('title')
-        if name:
+        find_user = self.find_ele([ele[0], ele[1] % (name, '.')])
+        if find_user:
+            name = self.find_ele([ele[0], ele[1] % (name, '.')]).get_attribute('title')
             job = self.find_ele([ele[0], ele[1] % (name, 'following-sibling::td[1]')]).get_attribute('title')
             department = self.find_ele([ele[0], ele[1] % (name, 'following-sibling::td[2]')]).get_attribute('title')
             phone = self.find_ele([ele[0], ele[1] % (name, 'following-sibling::td[3]')]).get_attribute('title')
             email = self.find_ele([ele[0], ele[1] % (name, 'following-sibling::td[4]')]).get_attribute('title')
             return [name, job, department, phone, email]
         else:
+            print(": 列表上未找到相关人员")
             return None
