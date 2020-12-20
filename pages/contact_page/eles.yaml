@@ -1,10 +1,25 @@
+# 正常情况应该分3个yaml文件分别写这3个页面的元素的, 目前就简单的放在一个文件中处理
+
+# contact page elements
 contact_add_bt: ['xpath','//div[@class="ww_operationBar"]//a[@class="qui_btn ww_btn js_add_member"]']
-name_box: ['css selector', '#username']
-alias_box: ['css selector', '#memberAdd_english_name']
-account_box: ['css selector', '#memberAdd_acctid']
-phone_box: ['css selector', '#memberAdd_phone']
-email_box: ['css selector', '#memberAdd_mail']
-job_box: ['css selector', '#memberAdd_title']
-invite_tick: ['xpath', '//input[@name="sendInvite"]']
-save_bt: ['css selector', 'a.qui_btn.ww_btn.js_btn_save']
-name_list: ['xpath', '//td[@title="%s"]/%s']
+top_add_bt: ['css selector', '.member_colLeft_top_addBtn']
+department_add_bt: ['css selector' , '.js_create_party']
+contacts_list: ['xpath', '//td[@title="%s"]/%s']
+
+
+# add contacts page elements
+con_name_box: ['css selector', '#username']
+con_alias_box: ['css selector', '#memberAdd_english_name']
+con_account_box: ['css selector', '#memberAdd_acctid']
+con_phone_box: ['css selector', '#memberAdd_phone']
+con_email_box: ['css selector', '#memberAdd_mail']
+con_job_box: ['css selector', '#memberAdd_title']
+con_invite_tick: ['xpath', '//input[@name="sendInvite"]']
+con_save_bt: ['css selector', 'a.qui_btn.ww_btn.js_btn_save']
+
+
+# add departments page elements
+dep_name_box: ['xpath', '//*[contains(text(), "部门名称")]/following-sibling::input']
+dep_droplist: ['css selector', '.js_toggle_party_list']
+dep_save_bt: ['css selector', '.ww_dialog_foot>.ww_btn_Blue']
+dep_list_select: ['xpath', '//*[@class="member_tag_dialog_inputDlg"]//*[contains(text(),"%s")]']
