@@ -5,18 +5,19 @@ import os
 from pages.main_page import MainPage
 
 os_path = os.path.dirname(os.path.abspath(__file__))
-test_data = yaml.safe_load(open(f'{os_path}/contact_data.yaml', encoding='utf-8'))
+test_data = yaml.safe_load(open(f'{os_path}/data.yaml', encoding='utf-8'))
 
 
 @allure.feature("联系人功能测试")
-@pytest.mark.usefixtures("web_start")
+@pytest.mark.contacts
 class TestContacts:
     def setup_class(self):
         self.main_page = MainPage()
 
     @allure.title("联系人添加")
     @pytest.mark.contacts
-    @pytest.mark.parametrize("user_info", test_data, ids=[name[2] for name in test_data])  # 取account作为ids
+    @pytest.mark.parametrize("user_info", test_data['contacts_add'],
+                             ids=[name[2] for name in test_data['contacts_add']])  # 取account作为ids
     def test_add_contacts(self, user_info):
         name, alias, account, phone, email, job, department = user_info
         with allure.step("测试创建账号"):

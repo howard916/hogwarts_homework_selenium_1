@@ -14,6 +14,7 @@ class Driver:
     def start(cls):
         cls.driver = webdriver.Chrome()
         cls.driver.implicitly_wait(5)
+        cls.driver.fullscreen_window()
 
     @classmethod
     def debug_start(cls):

@@ -1,0 +1,125 @@
+{
+  "uid" : "f6ffd9423377f70f",
+  "name" : "所属部门未选择提示检查",
+  "fullName" : "testcase.department.test_wechart_department.TestDepartment#test_blank_belong_departments_error_info",
+  "historyId" : "3497fdc7db326859686277beff4d90e4",
+  "time" : {
+    "start" : 1608645615423,
+    "stop" : 1608645616789,
+    "duration" : 1366
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestDepartment",
+    "time" : {
+      "start" : 1608645613990,
+      "stop" : 1608645614081,
+      "duration" : 91
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "web_start",
+    "time" : {
+      "start" : 1608645608758,
+      "stop" : 1608645613989,
+      "duration" : 5231
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestDepartment::0",
+    "time" : {
+      "start" : 1608645632309,
+      "stop" : 1608645632309,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "web_start::0",
+    "time" : {
+      "start" : 1608645632310,
+      "stop" : 1608645637553,
+      "duration" : 5243
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "部门功能测试"
+  }, {
+    "name" : "tag",
+    "value" : "department"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.department"
+  }, {
+    "name" : "suite",
+    "value" : "test_wechart_department"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDepartment"
+  }, {
+    "name" : "host",
+    "value" : "howard-mac.local"
+  }, {
+    "name" : "thread",
+    "value" : "28031-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.department.test_wechart_department"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dep_name",
+    "value" : "'123'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "department" ]
+  },
+  "source" : "f6ffd9423377f70f.json",
+  "parameterValues" : [ "'123'" ]
+}

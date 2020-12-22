@@ -1,30 +1,120 @@
 [ {
-  "uid" : "d45d0f6e73b11092",
-  "name" : "联系人添加",
+  "uid" : "46de2aacd4c39a96",
+  "name" : "相同部分级别内创建相同名称的部门",
   "time" : {
-    "start" : 1608281075766,
-    "stop" : 1608281076886,
-    "duration" : 1120
+    "start" : 1608645629202,
+    "stop" : 1608645630761,
+    "duration" : 1559
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c764f8eba283aae7",
-  "name" : "联系人添加",
+  "uid" : "c2321bc0482463e5",
+  "name" : "相同部分级别内创建相同名称的部门",
   "time" : {
-    "start" : 1608281072461,
-    "stop" : 1608281074707,
-    "duration" : 2246
+    "start" : 1608645627697,
+    "stop" : 1608645629198,
+    "duration" : 1501
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3218c949d041126a",
-  "name" : "联系人添加",
+  "uid" : "fd552e7acff13897",
+  "name" : "相同部分级别内创建相同名称的部门",
   "time" : {
-    "start" : 1608281074711,
-    "stop" : 1608281075763,
-    "duration" : 1052
+    "start" : 1608645616792,
+    "stop" : 1608645618330,
+    "duration" : 1538
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2191714076c94924",
+  "name" : "相同部分级别内创建相同名称的部门",
+  "time" : {
+    "start" : 1608645623043,
+    "stop" : 1608645624629,
+    "duration" : 1586
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b708481faec776e9",
+  "name" : "相同部分级别内创建相同名称的部门",
+  "time" : {
+    "start" : 1608645619897,
+    "stop" : 1608645621477,
+    "duration" : 1580
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab1aee77194526fc",
+  "name" : "部门名称为空提示检查",
+  "time" : {
+    "start" : 1608645614082,
+    "stop" : 1608645615420,
+    "duration" : 1338
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d9cff127838c5ca",
+  "name" : "相同部分级别内创建相同名称的部门",
+  "time" : {
+    "start" : 1608645621480,
+    "stop" : 1608645623039,
+    "duration" : 1559
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e3a7393828fc3a15",
+  "name" : "相同部分级别内创建相同名称的部门",
+  "time" : {
+    "start" : 1608645624632,
+    "stop" : 1608645626183,
+    "duration" : 1551
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "54d4e5df109e2d74",
+  "name" : "相同部分级别内创建相同名称的部门",
+  "time" : {
+    "start" : 1608645630764,
+    "stop" : 1608645632308,
+    "duration" : 1544
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "39439ab0ac82dafe",
+  "name" : "相同部分级别内创建相同名称的部门",
+  "time" : {
+    "start" : 1608645618334,
+    "stop" : 1608645619894,
+    "duration" : 1560
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6ffd9423377f70f",
+  "name" : "所属部门未选择提示检查",
+  "time" : {
+    "start" : 1608645615423,
+    "stop" : 1608645616789,
+    "duration" : 1366
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "49269ea4571d241a",
+  "name" : "相同部分级别内创建相同名称的部门",
+  "time" : {
+    "start" : 1608645626187,
+    "stop" : 1608645627694,
+    "duration" : 1507
   },
   "status" : "passed",
   "severity" : "normal"

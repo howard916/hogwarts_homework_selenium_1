@@ -2,9 +2,11 @@
 
 # contact page elements
 contact_add_bt: ['xpath','//div[@class="ww_operationBar"]//a[@class="qui_btn ww_btn js_add_member"]']
-top_add_bt: ['css selector', '.member_colLeft_top_addBtn']
+top_add_bt: ['css selector', 'i.member_colLeft_top_addBtn']
 department_add_bt: ['css selector' , '.js_create_party']
+department_window: ['css selector' , '.member_tag_dialog']
 contacts_list: ['xpath', '//td[@title="%s"]/%s']
+main_page_dh: ['css selector', '#menu_index']
 
 
 # add contacts page elements
@@ -22,4 +24,10 @@ con_save_bt: ['css selector', 'a.qui_btn.ww_btn.js_btn_save']
 dep_name_box: ['xpath', '//*[contains(text(), "部门名称")]/following-sibling::input']
 dep_droplist: ['css selector', '.js_toggle_party_list']
 dep_save_bt: ['css selector', '.ww_dialog_foot>.ww_btn_Blue']
+dep_cancel_bt: ['css selector', 'a.ww_btn[d_ck="cancel"]']
 dep_list_select: ['xpath', '//*[@class="member_tag_dialog_inputDlg"]//*[contains(text(),"%s")]']
+dep_error_info: ['xpath', '//*[@id="js_tips" and text()="%s"]']
+contacts_dep_list: ['css selector', 'a.jstree-clicked']
+dep_name_check: ['xpath', '//a[contains(@class,"jstree-anchor") and text()="%s"]']
+pop_window: ['css selector', '.member_tag_dialog_inputDlg']
+

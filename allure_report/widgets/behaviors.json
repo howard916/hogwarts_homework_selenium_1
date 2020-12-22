@@ -1,15 +1,15 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "c57b8c75fc930da329b6f47ba4de7270",
-    "name" : "联系人功能测试",
+    "uid" : "21499955cec2db137fb3ece3709f4280",
+    "name" : "部门功能测试",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 3
+      "total" : 12
     }
   } ]
 }

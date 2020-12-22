@@ -2,47 +2,164 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "testcase.test_wechat_contacts",
+    "name" : "testcase.department.test_wechart_department",
     "children" : [ {
-      "name" : "联系人添加",
-      "uid" : "c764f8eba283aae7",
-      "parentUid" : "2fec28633fff8751f5d100f51825329e",
+      "name" : "部门名称为空提示检查",
+      "uid" : "ab1aee77194526fc",
+      "parentUid" : "bb7851a9c3c4ceeea9fa876cd6d96378",
       "status" : "passed",
       "time" : {
-        "start" : 1608281072461,
-        "stop" : 1608281074707,
-        "duration" : 2246
+        "start" : 1608645614082,
+        "stop" : 1608645615420,
+        "duration" : 1338
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "['张三', '小张', 'zhangsan', '13800000001', 'zhangsan@example.com', '手工测试人员', '吴昊天']" ]
+      "parameters" : [ ]
     }, {
-      "name" : "联系人添加",
-      "uid" : "3218c949d041126a",
-      "parentUid" : "2fec28633fff8751f5d100f51825329e",
+      "name" : "所属部门未选择提示检查",
+      "uid" : "f6ffd9423377f70f",
+      "parentUid" : "bb7851a9c3c4ceeea9fa876cd6d96378",
       "status" : "passed",
       "time" : {
-        "start" : 1608281074711,
-        "stop" : 1608281075763,
-        "duration" : 1052
+        "start" : 1608645615423,
+        "stop" : 1608645616789,
+        "duration" : 1366
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "['李四', '老李', 'lisi', '13900000001', 'lisi@example.com', '测试组长', '吴昊天']" ]
+      "parameters" : [ "'123'" ]
     }, {
-      "name" : "联系人添加",
-      "uid" : "d45d0f6e73b11092",
-      "parentUid" : "2fec28633fff8751f5d100f51825329e",
+      "name" : "相同部分级别内创建相同名称的部门",
+      "uid" : "fd552e7acff13897",
+      "parentUid" : "bb7851a9c3c4ceeea9fa876cd6d96378",
       "status" : "passed",
       "time" : {
-        "start" : 1608281075766,
-        "stop" : 1608281076886,
-        "duration" : 1120
+        "start" : 1608645616792,
+        "stop" : 1608645618330,
+        "duration" : 1538
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "['王二', '小王', 'wang2', '13300000001', 'wang2@example.com', '测试开发', '吴昊天']" ]
+      "parameters" : [ "'吴昊天'", "'测试开发部门'" ]
+    }, {
+      "name" : "相同部分级别内创建相同名称的部门",
+      "uid" : "39439ab0ac82dafe",
+      "parentUid" : "bb7851a9c3c4ceeea9fa876cd6d96378",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608645618334,
+        "stop" : 1608645619894,
+        "duration" : 1560
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'吴昊天'", "'质量管理部门'" ]
+    }, {
+      "name" : "相同部分级别内创建相同名称的部门",
+      "uid" : "b708481faec776e9",
+      "parentUid" : "bb7851a9c3c4ceeea9fa876cd6d96378",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608645619897,
+        "stop" : 1608645621477,
+        "duration" : 1580
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'吴昊天'", "'产品开发部门'" ]
+    }, {
+      "name" : "相同部分级别内创建相同名称的部门",
+      "uid" : "d9cff127838c5ca",
+      "parentUid" : "bb7851a9c3c4ceeea9fa876cd6d96378",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608645621480,
+        "stop" : 1608645623039,
+        "duration" : 1559
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'吴昊天'", "'市场运营部门'" ]
+    }, {
+      "name" : "相同部分级别内创建相同名称的部门",
+      "uid" : "2191714076c94924",
+      "parentUid" : "bb7851a9c3c4ceeea9fa876cd6d96378",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608645623043,
+        "stop" : 1608645624629,
+        "duration" : 1586
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'质量管理部门'", "'质量1组'" ]
+    }, {
+      "name" : "相同部分级别内创建相同名称的部门",
+      "uid" : "e3a7393828fc3a15",
+      "parentUid" : "bb7851a9c3c4ceeea9fa876cd6d96378",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608645624632,
+        "stop" : 1608645626183,
+        "duration" : 1551
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'质量管理部门'", "'质量2组'" ]
+    }, {
+      "name" : "相同部分级别内创建相同名称的部门",
+      "uid" : "49269ea4571d241a",
+      "parentUid" : "bb7851a9c3c4ceeea9fa876cd6d96378",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608645626187,
+        "stop" : 1608645627694,
+        "duration" : 1507
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'产品开发部门'", "'产品1组'" ]
+    }, {
+      "name" : "相同部分级别内创建相同名称的部门",
+      "uid" : "c2321bc0482463e5",
+      "parentUid" : "bb7851a9c3c4ceeea9fa876cd6d96378",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608645627697,
+        "stop" : 1608645629198,
+        "duration" : 1501
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'产品开发部门'", "'产品2组'" ]
+    }, {
+      "name" : "相同部分级别内创建相同名称的部门",
+      "uid" : "46de2aacd4c39a96",
+      "parentUid" : "bb7851a9c3c4ceeea9fa876cd6d96378",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608645629202,
+        "stop" : 1608645630761,
+        "duration" : 1559
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'市场运营部门'", "'市场1组'" ]
+    }, {
+      "name" : "相同部分级别内创建相同名称的部门",
+      "uid" : "54d4e5df109e2d74",
+      "parentUid" : "bb7851a9c3c4ceeea9fa876cd6d96378",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608645630764,
+        "stop" : 1608645632308,
+        "duration" : 1544
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'市场运营部门'", "'市场2组'" ]
     } ],
-    "uid" : "testcase.test_wechat_contacts"
+    "uid" : "testcase.department.test_wechart_department"
   } ]
 }

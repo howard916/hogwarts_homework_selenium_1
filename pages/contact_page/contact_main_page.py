@@ -1,3 +1,5 @@
+import time
+
 from pages import BasePage
 from .add_contact_page import AddContactPage
 from .add_department_page import AddDepartmentPage
@@ -16,6 +18,7 @@ class ContactsPage(BasePage):
         return AddContactPage()
 
     def goto_add_department_page(self):
+        self.wait_until_not(self._eles['pop_window'], wait_type='exist')
         self.find_ele(self._eles['top_add_bt']).click()
         self.find_ele(self._eles['department_add_bt']).click()
         return AddDepartmentPage()
@@ -33,3 +36,8 @@ class ContactsPage(BasePage):
         else:
             print(": 列表上未找到相关人员")
             return None
+
+    def back_main_page(self):
+        self.find_ele(self._eles['main_page_dh']).click()
+        from pages.main_page import MainPage
+        return MainPage()
